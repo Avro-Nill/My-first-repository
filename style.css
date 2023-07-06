@@ -1,20 +1,26 @@
+*{
+    background:linear-gradient(45deg,rgba(172, 30, 61, 0.26),rgba(23, 175, 81, 0.329));
+    justify-content: center;
+    align-items: center;
+}
 .container{
-    background-color: rgb(0, 183, 255);
+    background-color: rgba(0, 183, 255, 0.582);
     text-align: center;
     align-items: center;
     justify-content: center;
-    box-shadow: 2px 2px 10px blue;
+    box-shadow: 2px 2px 8px rgba(0, 0, 255, 0.418);
     width: 600px;
-    position: relative;
+    height: 700px;
     margin: 5px 0px 0px 30px;
     border-radius: 40px;
+    position: relative;
 }
 a{
     text-decoration: none;
 }
 .login{
     background: rgb(0, 89, 255);
-    height: 20px;
+    height: 30px;
     width: 67px;
     display: flex;
     flex-direction: column;
@@ -22,11 +28,38 @@ a{
     align-items: center;
     position: relative;
     margin: 0px 270px;
-    font-size: 1.2rem;
-    border-radius: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .login:hover{
-    background-color: blueviolet;
-    color:#fff;
-    animation: forwards 2s;
+    background-color: rgb(255, 0, 212);
+    text-color:#fff;
+    transition: all ease-in 1s;
+}
+.btn{
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 60px;
+    height: 22px;
+    margin-bottom: 5px;
+}
+.btn:hover{
+    background-color: chartreuse;
+    transition: all ease 1s;
+}
+.name{
+    color: #fff;
+    border: none;
+}
+.name input{
+    border: none;
+    color: #ffffff;
+    height: 20px;
+}
+.name input::placeholder{
+    color: #fff;
+    border: none;
 }
