@@ -34,7 +34,7 @@ a{
 }
 .login:hover{
     background-color: rgb(255, 0, 212);
-    text-color:#fff;
+    color:#fff;
     transition: all ease-in 1s;
 }
 .btn{
