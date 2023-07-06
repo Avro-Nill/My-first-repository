@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My first repository</title>
 </head>
 <body>
@@ -10,10 +11,10 @@
         <h1>Sign Up</h1>
         <hr>
         <label for="user"> Name :</label>
-        <input type="text" id="user" placeholder="Enter Your Name">
+        <input type="text" id="user" placeholder="Enter Your Name" required>
         <br>
         <label for="email"> Email :</label>
-        <input type="email" name="user mail" id="email" placeholder="Enter Your Email">
+        <input type="email" name="user mail" id="email" placeholder="Enter Your Email" required>
         <br>
         <label for="password"> Password :</label>
         <input type="password" name="pass" id="password" placeholder="Enter a Strong Password">
@@ -27,7 +28,7 @@
             <option value="+780">+780</option>
             <option value="+230">+230</option>
         </select>
-        <input type="number" name="phone no" id="phn" placeholder="Enter Your Phone Number">
+        <input type="number" name="phone no" id="phn" placeholder="Enter Your Phone Number" required>
         <br>
         <label for="country"> Your Country :</label>
         <input list="con">
@@ -39,6 +40,32 @@
             <option value="Singapur"> Singapur </option>
             <option value="Argentina"> Argentina </option>
         </datalist>
+        <br>
+        Gender :
+        <input type="radio" name="gender" id="gnd1">
+        <label for="gnd1"> Male </label>
+        <input type="radio" name="gender" id="gnd2">
+        <label for="gnd2"> Female </label>
+        <br>
+        <label for="date"> Date of Birth :</label>
+        <input type="date" name="DOB" id="date">
+        <br>
+        <label for="time"> Time :</label>
+        <input type="time" name="tm" id="time">
+        <br>
+        <label for="file"> Choose a Photo :</label>
+        <input type="file" id="file" name="fl">
+        <br>
+        <input type="checkbox" id="vehicle 1" name="vec">
+        <label for="device 2"> I Have a SmartPhone </label>
+        <input type="checkbox" id="vehicle 2" name="vec">
+        <label for="device 2"> I Have a Computer </label>
+        <br>
+        <textarea name="" id="" cols="30" rows="5"> Drop a Comment</textarea>
+        <br>
+        <input type="reset" value="Restart">
+        <br>
+        <div class="login"><a href=""> Log In </a></div>
     </div>
 </body>
 </html>
